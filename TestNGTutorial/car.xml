@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Car Details Overall">
+	  	<test name="CarDetails">
+	    	<classes>
+	      		<class name="car.Cardetail"/>
+	      		<class name="car.Carparts"/>
+	    	</classes>
+	  	</test> 
+		<test name="CarParts">
+	    	<classes>
+	      		<class name="car.Carparts"/>
+	    	</classes>
+	  	</test>
+	  	<test name="CarOwner">
+	    	<classes>
+	      		<class name="car.Carowner"/>
+	    	</classes>
+	  	</test>
+		
+</suite> 

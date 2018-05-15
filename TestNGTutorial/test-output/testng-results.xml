@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="851" started-at="2018-05-11T14:40:43Z" finished-at="2018-05-11T14:40:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="851" started-at="2018-05-11T14:40:43Z" finished-at="2018-05-11T14:40:44Z">
+      <class name="car.Cardetail">
+        <test-method status="PASS" signature="btest()[pri:0, instance:car.Cardetail@62ee68d8]" name="btest" is-config="true" duration-ms="341" started-at="2018-05-11T14:40:43Z" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="bclass()[pri:0, instance:car.Cardetail@62ee68d8]" name="bclass" is-config="true" duration-ms="0" started-at="2018-05-11T14:40:44Z" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclass -->
+        <test-method status="PASS" signature="company()[pri:0, instance:car.Cardetail@62ee68d8]" name="company" duration-ms="12" started-at="2018-05-11T14:40:44Z" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- company -->
+        <test-method status="PASS" signature="country()[pri:0, instance:car.Cardetail@62ee68d8]" name="country" duration-ms="3" started-at="2018-05-11T14:40:44Z" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- country -->
+        <test-method status="PASS" signature="manufacture()[pri:0, instance:car.Cardetail@62ee68d8]" name="manufacture" duration-ms="4" started-at="2018-05-11T14:40:44Z" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufacture -->
+        <test-method status="PASS" signature="cost()[pri:0, instance:car.Cardetail@62ee68d8]" name="cost" duration-ms="2" started-at="2018-05-11T14:40:44Z" depends-on-methods="car.Cardetail.country, car.Cardetail.company" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cost -->
+        <test-method status="PASS" signature="shippingcost()[pri:0, instance:car.Cardetail@62ee68d8]" name="shippingcost" duration-ms="3" started-at="2018-05-11T14:40:44Z" depends-on-methods="car.Cardetail.country" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingcost -->
+        <test-method status="PASS" signature="importtax()[pri:0, instance:car.Cardetail@62ee68d8]" name="importtax" duration-ms="8" started-at="2018-05-11T14:40:44Z" depends-on-methods="car.Cardetail.shippingcost" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importtax -->
+        <test-method status="PASS" signature="tax()[pri:0, instance:car.Cardetail@62ee68d8]" name="tax" duration-ms="2" started-at="2018-05-11T14:40:44Z" depends-on-methods="car.Cardetail.country, car.Cardetail.manufacture, car.Cardetail.cost" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tax -->
+        <test-method status="PASS" signature="aclass()[pri:0, instance:car.Cardetail@62ee68d8]" name="aclass" is-config="true" duration-ms="1" started-at="2018-05-11T14:40:44Z" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aclass -->
+        <test-method status="PASS" signature="atest()[pri:0, instance:car.Cardetail@62ee68d8]" name="atest" is-config="true" duration-ms="0" started-at="2018-05-11T14:40:44Z" finished-at="2018-05-11T14:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+      </class> <!-- car.Cardetail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
