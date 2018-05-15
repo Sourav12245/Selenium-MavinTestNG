@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="12" total="20" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="811" started-at="2018-05-15T08:10:03Z" finished-at="2018-05-15T08:10:03Z">
+  <suite name="DebitCard" duration-ms="242" started-at="2018-05-15T13:23:40Z" finished-at="2018-05-15T13:23:41Z">
     <groups>
+      <group name="build">
+        <method signature="Carowner.DOB()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="DOB" class="Banking.DebitCard.Carowner"/>
+        <method signature="Carowner.age()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="age" class="Banking.DebitCard.Carowner"/>
+        <method signature="Carowner.name()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="name" class="Banking.DebitCard.Carowner"/>
+        <method signature="Carowner.profession()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="profession" class="Banking.DebitCard.Carowner"/>
+        <method signature="Carowner.sex()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="sex" class="Banking.DebitCard.Carowner"/>
+        <method signature="Carparts.chechis()[pri:0, instance:Banking.DebitCard.Carparts@735b5592]" name="chechis" class="Banking.DebitCard.Carparts"/>
+        <method signature="Carparts.door()[pri:0, instance:Banking.DebitCard.Carparts@735b5592]" name="door" class="Banking.DebitCard.Carparts"/>
+        <method signature="Carparts.headlight()[pri:0, instance:Banking.DebitCard.Carparts@735b5592]" name="headlight" class="Banking.DebitCard.Carparts"/>
+      </group> <!-- build -->
     </groups>
-    <test name="Default test" duration-ms="811" started-at="2018-05-15T08:10:03Z" finished-at="2018-05-15T08:10:03Z">
-      <class name="Banking.DebitCard.AppTest">
-        <test-method status="PASS" signature="hellome()[pri:0, instance:Banking.DebitCard.AppTest@46d56d67]" name="hellome" duration-ms="173" started-at="2018-05-15T08:10:03Z" finished-at="2018-05-15T08:10:03Z">
+    <test name="RegressionTest" duration-ms="242" started-at="2018-05-15T13:23:40Z" finished-at="2018-05-15T13:23:41Z">
+      <class name="Banking.DebitCard.Carowner">
+        <test-method status="PASS" signature="DOB()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="DOB" duration-ms="27" started-at="2018-05-15T18:53:40Z" finished-at="2018-05-15T18:53:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hellome -->
-      </class> <!-- Banking.DebitCard.AppTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- DOB -->
+        <test-method status="PASS" signature="age()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="age" duration-ms="6" started-at="2018-05-15T18:53:41Z" finished-at="2018-05-15T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- age -->
+        <test-method status="PASS" signature="name()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="name" duration-ms="6" started-at="2018-05-15T18:53:41Z" finished-at="2018-05-15T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method status="PASS" signature="profession()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="profession" duration-ms="4" started-at="2018-05-15T18:53:41Z" finished-at="2018-05-15T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profession -->
+        <test-method status="PASS" signature="sex()[pri:0, instance:Banking.DebitCard.Carowner@7f9a81e8]" name="sex" duration-ms="6" started-at="2018-05-15T18:53:41Z" finished-at="2018-05-15T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sex -->
+      </class> <!-- Banking.DebitCard.Carowner -->
+      <class name="Banking.DebitCard.Carparts">
+        <test-method status="PASS" signature="chechis()[pri:0, instance:Banking.DebitCard.Carparts@735b5592]" name="chechis" duration-ms="5" started-at="2018-05-15T18:53:41Z" finished-at="2018-05-15T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chechis -->
+        <test-method status="PASS" signature="door()[pri:0, instance:Banking.DebitCard.Carparts@735b5592]" name="door" duration-ms="9" started-at="2018-05-15T18:53:41Z" finished-at="2018-05-15T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- door -->
+        <test-method status="PASS" signature="headlight()[pri:0, instance:Banking.DebitCard.Carparts@735b5592]" name="headlight" duration-ms="3" started-at="2018-05-15T18:53:41Z" finished-at="2018-05-15T18:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headlight -->
+      </class> <!-- Banking.DebitCard.Carparts -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- DebitCard -->
 </testng-results>
