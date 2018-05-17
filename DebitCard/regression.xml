@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="DebitCard">
   <test name="RegressionTest">
+  <!-- 
   <groups>
   	<run>
   	<include name="regression"/>
   	</run>
   </groups>
+   -->
   	<classes>
-  		<class name ="Banking.DebitCard.Cardetail"/>
-  		<class name ="Banking.DebitCard.Carowner"/>
-  		<class name ="Banking.DebitCard.Carparts"/>
+  		<class name ="Banking.DebitCard.LoginTest"/>
   	</classes>
   </test>
 </suite>
