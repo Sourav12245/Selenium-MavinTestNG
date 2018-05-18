@@ -6,7 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import Banking.loginPage;
+import Banking.loginPageRepo;
 
 public class LoginTest {
 	// Webdriver to be declared outside.
@@ -26,22 +26,24 @@ public class LoginTest {
 	@Test
 	public void LoginApp() {
 		// Login into mercury application
-		
 		// To access the method present in any class
 		// We need to create Object of that class
 		// and then call the method of the class with the object.
 	
 // Creating object means invoking Constructor method. Constructor is used to initialize the code, So it 
 // will run first.
-		loginPage obj = new loginPage(driver);
-		obj.setuserid("mercury");
-		obj.setuserpassword("mercury");
-		obj.login();
+		loginPageRepo obj = new loginPageRepo(driver);
+////		obj.get_all_link_count_in_loginpage();
+////		obj.get_all_linkname_in_loginpage();
+////		obj.verifydate();
+//		obj.isusernamepresent();
+//		obj.ispasswordpresent();
+		obj.passwordfieldverification();
 		
 		
 	}
 	@AfterTest
-	public void shutdown() {
+	public void tearDown() {
 		System.out.println("------------------Driver is closed------------------------------");
 		driver.close();
 		
