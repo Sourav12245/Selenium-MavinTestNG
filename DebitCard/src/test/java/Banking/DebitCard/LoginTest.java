@@ -15,7 +15,7 @@ public class LoginTest {
 	public void setup() {
 		System.out.println("------------------Driver Starts------------------------------");
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sourav.e.ghosh\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sourav\\Downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
 		driver.manage().window().maximize();
@@ -33,12 +33,11 @@ public class LoginTest {
 // Creating object means invoking Constructor method. Constructor is used to initialize the code, So it 
 // will run first.
 		loginPageRepo obj = new loginPageRepo(driver);
-////		obj.get_all_link_count_in_loginpage();
-////		obj.get_all_linkname_in_loginpage();
-////		obj.verifydate();
+		System.out.println("--Enter mode---");
 //		obj.isusernamepresent();
-//		obj.ispasswordpresent();
-		obj.passwordfieldverification();
+		obj.get_all_link_count_in_loginpage();
+		System.out.println("---Exit-----");
+
 		
 		
 	}

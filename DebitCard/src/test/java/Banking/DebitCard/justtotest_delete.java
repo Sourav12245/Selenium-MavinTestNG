@@ -12,27 +12,13 @@ public class justtotest_delete {
 //		d = df.format(date);
 //		System.out.println(d);
 		WebDriver driver;
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sourav.e.ghosh\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sourav\\Downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
 		driver.manage().window().maximize();
 		System.out.println("--------------Starts----------------------");
-		check("//input[@type=\"text\"][@name=\"userName\"][@size=\"10\"]");
-//		String atn = driver.findElement(By.xpath("//input[@type=\"text\"][@name=\"userName\"][@size=\"10\"]")).getTagName();
-//		String an = driver.findElement(By.xpath("//input[@type=\"text\"][@name=\"userName\"][@size=\"10\"]")).getAttribute("type");
-//		System.out.println(atn);
-//		System.out.println(an);
-//		
-//		if(atn.equalsIgnoreCase("input")) {
-//			System.out.println("Input box:"+an+" --Present");
-//		}
-//		else System.out.println("Input Box:Not present");
-		System.out.println("--------------Ends------------------------");
-		driver.close();
-	}
-	
-	public static void check(String xp) {
-		WebDriver driver =null;
+		String xp = "//input[@type='text'][@name='userName'][@size='10']";
+//		check("//input[@type=\"text\"][@name=\"userName\"][@size=\"10\"]");
 		String atn = driver.findElement(By.xpath(xp)).getTagName();
 		String an = driver.findElement(By.xpath(xp)).getAttribute("type");
 		System.out.println(atn);
@@ -42,7 +28,22 @@ public class justtotest_delete {
 			System.out.println("Input box:"+an+" --Present");
 		}
 		else System.out.println("Input Box:Not present");
+		System.out.println("--------------Ends------------------------");
+		driver.close();
 	}
+	
+//	public static void check(String xp) {
+//		WebDriver driver;
+//		String atn = driver.findElement(By.xpath(xp)).getTagName();
+//		String an = driver.findElement(By.xpath(xp)).getAttribute("type");
+//		System.out.println(atn);
+//		System.out.println(an);
+//		
+//		if(atn.equalsIgnoreCase("input")) {
+//			System.out.println("Input box:"+an+" --Present");
+//		}
+//		else System.out.println("Input Box:Not present");
+//	}
 	
 		
 	
