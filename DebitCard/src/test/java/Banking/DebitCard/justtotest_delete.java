@@ -1,51 +1,34 @@
 package Banking.DebitCard;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class justtotest_delete {
-	public static void main(String args[]) {
-//		String d;
-//		DateFormat df = new SimpleDateFormat("dd/MM/yyyy"); 
-//		Date date = new Date();
-//		d = df.format(date);
-//		System.out.println(d);
+	public static void main(String[]args) {
 		WebDriver driver;
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sourav\\Downloads\\chromedriver.exe");
+		By da = By.xpath("//tr[@align=\"right\"]//td[@colspan=\"2\"]//b");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sourav.e.ghosh\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://newtours.demoaut.com/");
 		driver.manage().window().maximize();
-		System.out.println("--------------Starts----------------------");
-		String xp = "//input[@type='text'][@name='userName'][@size='10']";
-//		check("//input[@type=\"text\"][@name=\"userName\"][@size=\"10\"]");
-		String atn = driver.findElement(By.xpath(xp)).getTagName();
-		String an = driver.findElement(By.xpath(xp)).getAttribute("type");
-		System.out.println(atn);
-		System.out.println(an);
+		System.out.println("------------------Webpage activated------------------------------");
+		String c = driver.findElement(da).getText();
+		DateFormat original_format = new SimpleDateFormat("MMMM dd, yyyy");
 		
-		if(atn.equalsIgnoreCase("input")) {
-			System.out.println("Input box:"+an+" --Present");
+		Date date = new Date();
+		String main_date = original_format.format(date);
+		if(main_date.equalsIgnoreCase(c)) {
+			System.out.println("Date is correct: "+main_date);
 		}
-		else System.out.println("Input Box:Not present");
-		System.out.println("--------------Ends------------------------");
+		else System.out.println("Date is Incorrect: Should be "+c+" but showing "+main_date);
 		driver.close();
-	}
-	
-//	public static void check(String xp) {
-//		WebDriver driver;
-//		String atn = driver.findElement(By.xpath(xp)).getTagName();
-//		String an = driver.findElement(By.xpath(xp)).getAttribute("type");
-//		System.out.println(atn);
-//		System.out.println(an);
-//		
-//		if(atn.equalsIgnoreCase("input")) {
-//			System.out.println("Input box:"+an+" --Present");
-//		}
-//		else System.out.println("Input Box:Not present");
-//	}
-	
 		
+	}
 	
 }
 

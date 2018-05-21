@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-DebitCard">
-              <span class="suite-name border-passed">DebitCard</span>
+              <span class="suite-name border-failed">DebitCard</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-DebitCard">
-                    <span>C:\Users\Sourav\workspace\eclipse-workspace\DebitCard\regression.xml</span>
+                    <span>C:\Users\sourav.e.ghosh\git\eclipse-workspace\DebitCard\regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-DebitCard" class="hide-methods passed suite-DebitCard"> (hide)</a> <!-- hide-methods passed suite-DebitCard -->
-                      <a href="#" panel-name="suite-DebitCard" class="show-methods passed suite-DebitCard"> (show)</a> <!-- show-methods passed suite-DebitCard -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DebitCard" class="hide-methods failed suite-DebitCard"> (hide)</a> <!-- hide-methods failed suite-DebitCard -->
+                      <a href="#" panel-name="suite-DebitCard" class="show-methods failed suite-DebitCard"> (show)</a> <!-- show-methods failed suite-DebitCard -->
                     </span>
-                    <div class="method-list-content passed suite-DebitCard">
+                    <div class="method-list-content failed suite-DebitCard">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-DebitCard" title="Banking.DebitCard.LoginTest" hash-for-method="LoginApp">LoginApp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-DebitCard -->
+                    </div> <!-- method-list-content failed suite-DebitCard -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DebitCard" class="panel DebitCard">
-          <div class="suite-DebitCard-class-passed">
+          <div class="suite-DebitCard-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Banking.DebitCard.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,14 +128,20 @@
                   <a name="LoginApp">
                   </a> <!-- LoginApp -->
                   <span class="method-name">LoginApp</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Banking.centralRepo.c_verifydate(centralRepo.java:22)
+	at Banking.loginPageRepo.verifydate(loginPageRepo.java:87)
+	at Banking.DebitCard.LoginTest.LoginApp(LoginTest.java:38)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-DebitCard-class-passed -->
+          </div> <!-- suite-DebitCard-class-failed -->
         </div> <!-- panel DebitCard -->
         <div panel-name="test-xml-DebitCard" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Sourav\workspace\eclipse-workspace\DebitCard\regression.xml</span>
+            <span class="header-content">C:\Users\sourav.e.ghosh\git\eclipse-workspace\DebitCard\regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -188,12 +194,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginApp')
 data.setCell(0, 2, 'Banking.DebitCard.LoginTest')
-data.setCell(0, 3, 139);
+data.setCell(0, 3, 104);
 window.suiteTableData['DebitCard']= { tableData: data, tableDiv: 'times-div-DebitCard'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 139 ms</span>
+              <span class="suite-total-time">Total running time: 104 ms</span>
               <div id="times-div-DebitCard">
               </div> <!-- times-div-DebitCard -->
             </div> <!-- times-div -->
@@ -225,12 +231,14 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">LoginApp</span>
-                <span class="method-start">8538 ms</span>
+                <span class="method-start">14823 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8684 ms</span>
+                <span class="method-start">14954 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
