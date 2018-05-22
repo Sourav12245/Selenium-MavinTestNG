@@ -1,0 +1,18 @@
+package Banking;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class flightfinderpagerepo {
+	WebDriver driver;
+	By continue_button = By.name("findFlights");
+///////////////////////////////////////////////////	////////////////////////////////////////////////////////////////////////
+	public flightfinderpagerepo(WebDriver driver) {
+		this.driver = driver;
+	}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+	public void click_continue() {
+		driver.findElement(continue_button).click();
+	}
+
+}

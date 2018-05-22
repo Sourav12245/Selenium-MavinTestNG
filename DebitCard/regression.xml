@@ -10,7 +10,7 @@
   </groups>
    -->
   	<classes>
-  		<class name ="Banking.DebitCard.LoginTest"/>
+  		<class name ="Banking.DebitCard.sampletest"/>
   	</classes>
   </test>
 </suite>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [DebitCard]">
-  <test name="RegressionTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Banking.DebitCard.LoginTest">
+      <class name="Banking.DebitCard.sampletest">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="LoginApp"/>
+          <include name="loginappcheck"/>
+          <include name="loadUP"/>
+          <include name="tearDOWN"/>
         </methods>
-      </class> <!-- Banking.DebitCard.LoginTest -->
+      </class> <!-- Banking.DebitCard.sampletest -->
     </classes>
-  </test> <!-- RegressionTest(failed) -->
-</suite> <!-- Failed suite [DebitCard] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
