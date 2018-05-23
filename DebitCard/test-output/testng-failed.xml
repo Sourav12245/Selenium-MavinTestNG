@@ -7,7 +7,6 @@
         <methods>
           <include name="loginappcheck"/>
           <include name="loadUP"/>
-          <include name="tearDOWN"/>
         </methods>
       </class> <!-- Banking.DebitCard.sampletest -->
     </classes>

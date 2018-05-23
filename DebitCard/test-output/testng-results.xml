@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28960" started-at="2018-05-22T12:28:05Z" finished-at="2018-05-22T12:28:34Z">
+  <suite name="Default suite" duration-ms="26612" started-at="2018-05-22T18:08:02Z" finished-at="2018-05-22T18:08:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28960" started-at="2018-05-22T12:28:05Z" finished-at="2018-05-22T12:28:34Z">
+    <test name="Default test" duration-ms="26612" started-at="2018-05-22T18:08:02Z" finished-at="2018-05-22T18:08:28Z">
       <class name="Banking.DebitCard.sampletest">
-        <test-method status="PASS" signature="loadUP()[pri:0, instance:Banking.DebitCard.sampletest@59fa1d9b]" name="loadUP" is-config="true" duration-ms="25061" started-at="2018-05-22T17:58:05Z" finished-at="2018-05-22T17:58:30Z">
+        <test-method status="PASS" signature="loadUP()[pri:0, instance:Banking.DebitCard.sampletest@d8355a8]" name="loadUP" is-config="true" duration-ms="23452" started-at="2018-05-22T23:38:02Z" finished-at="2018-05-22T23:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadUP -->
-        <test-method status="PASS" signature="loginappcheck()[pri:1, instance:Banking.DebitCard.sampletest@59fa1d9b]" name="loginappcheck" duration-ms="2458" started-at="2018-05-22T17:58:30Z" finished-at="2018-05-22T17:58:32Z">
+        <test-method status="PASS" signature="loginappcheck()[pri:1, instance:Banking.DebitCard.sampletest@d8355a8]" name="loginappcheck" duration-ms="2178" started-at="2018-05-22T23:38:25Z" finished-at="2018-05-22T23:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginappcheck -->
-        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:Banking.DebitCard.sampletest@59fa1d9b]" name="tearDOWN" is-config="true" duration-ms="1286" started-at="2018-05-22T17:58:32Z" finished-at="2018-05-22T17:58:34Z">
+        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:Banking.DebitCard.sampletest@d8355a8]" name="tearDOWN" is-config="true" duration-ms="876" started-at="2018-05-22T23:38:27Z" finished-at="2018-05-22T23:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOWN -->

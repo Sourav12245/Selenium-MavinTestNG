@@ -5,7 +5,7 @@
     <classes>
       <class name="Banking.DebitCard.sampletest">
         <methods>
-          <include name="flightfinder"/>
+          <include name="loginappcheck"/>
           <include name="loadUP"/>
         </methods>
       </class> <!-- Banking.DebitCard.sampletest -->

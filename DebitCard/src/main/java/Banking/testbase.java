@@ -17,12 +17,12 @@ public class testbase {
 	@BeforeTest
 	public void loadUP() throws IOException {
 		Properties p = new Properties();
-		FileInputStream fi = new FileInputStream("C:\\Users\\sourav.e.ghosh\\git\\eclipse-workspace\\DebitCard\\src\\main\\java\\Banking\\global.properties");
+		FileInputStream fi = new FileInputStream("C:\\Users\\Sourav\\workspace\\eclipse-workspace\\DebitCard\\src\\main\\java\\Banking\\global.properties");
 		p.load(fi);
 		String b_name = p.getProperty("browser");
 		String u_name = p.getProperty("url");
 		if(p.getProperty("browser").equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\sourav.e.ghosh\\Downloads\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\Sourav\\Downloads\\chromedriver.exe" );
 			driver = new ChromeDriver();
 		}
 		else if(p.getProperty("browser").equalsIgnoreCase("firefox")) {
