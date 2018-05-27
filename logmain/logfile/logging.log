@@ -1,1 +1,13 @@
-2018-05-25 01:59 DEBUG checklog:25 - Chrome driver trigered
+2018-05-28 00:30 DEBUG Testproperties:18 - config.properties file found in the directrory
+2018-05-28 00:30 DEBUG Testproperties:24 - chrome_path: data was sent back from the config file
+2018-05-28 00:30 DEBUG Testproperties:18 - Chrome driver trigered
+2018-05-28 00:30 DEBUG Testproperties:24 - Open Chrome
+2018-05-28 00:30 DEBUG Testproperties:18 - config.properties file found in the directrory
+2018-05-28 00:30 DEBUG Testproperties:24 - url: data was sent back from the config file
+2018-05-28 00:30 DEBUG Testproperties:31 - Google opened
+2018-05-28 00:30 DEBUG Testproperties:34 - Windows maximized
+2018-05-28 00:30 DEBUG Testproperties:33 - Number of links counted in page Google = 52
+2018-05-28 00:30 DEBUG Testproperties:14 - Sourav Ghosh entered
+2018-05-28 00:30 DEBUG Testproperties:19 - Search button clicked
+2018-05-28 00:30 DEBUG Testproperties:26 - Go back
+2018-05-28 00:30 DEBUG Testproperties:40 - Browser closed
