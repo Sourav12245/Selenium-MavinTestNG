@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class learn {
 
-	@Test(groups= {"Smoke"})
+	@Test(groups= {"Regression"})
 	public void name() {
 		System.out.println("Name: SOURAV");
 		
 
 	}
-	@Test
+	@Test(groups= {"Regression"})
 	public void age() {
 		System.out.println("Age: 26");
 		

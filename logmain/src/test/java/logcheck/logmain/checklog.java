@@ -12,7 +12,6 @@ public class checklog extends TestBase{
 		driver.findElement(By.id("lst-ib")).sendKeys(s);
 		log.debug(s+" entered");
 		driver.findElement(By.id("gb")).click();
-		waitsometime(3);
 		try {
 			driver.findElement(By.xpath("//input[@value='Google Search'][@name='btnK']")).click();
 			log.debug("Search button clicked");
@@ -23,7 +22,6 @@ public class checklog extends TestBase{
 		
 		driver.navigate().back();
 		log.debug("Go back");
-		waitsometime(30);
 	}
 	@Test(priority = 1)
 	public void getnumberoflinks(){

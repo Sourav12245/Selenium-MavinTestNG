@@ -1,8 +1,10 @@
 package car;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 //import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 //import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -52,14 +54,13 @@ public class Carowner {
 ////====================================================================================================
 ////=======================================METHOD========================================================
 ////====================================================================================================
-//	@BeforeMethod
-//	public void bmethod() {
-//		System.out.println("=====================BEFORE METHOD(Car Owner)==================================================");
-//	}
-//	@AfterMethod
-//	public void amethod() {
-//		System.out.println("======================AFTER METHOD(Car Owner)=================================================");
-//	}
+	@BeforeMethod
+	public void bmethod() {
+		System.out.println("=====================BEFORE METHOD(Car Owner)==================================================");
+	}
+	@AfterMethod
+	public void amethod() {
+		System.out.println("======================AFTER METHOD(Car Owner)=================================================");
+	}
 	
-
 }

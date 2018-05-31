@@ -42,7 +42,7 @@ public class Cardetail {
 		System.out.println("Cost: Rs: 6,00,000");
 	}
 	
-	@Test(dependsOnMethods = {"cost","tax","shippingcost","importtax"},enabled = false)
+	@Test(dependsOnMethods = {"cost","tax","shippingcost","importtax"},enabled = true)
 	public void overallcost() {
 		System.out.println("Over All Cost: 9,20,000");
 	}

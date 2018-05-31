@@ -1,15 +1,12 @@
 package logcheck.logmain;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 public class TestBase extends Testproperties{
-//	Logger log = Logger.getLogger("Testbase");
 	WebDriver driver;
 	@BeforeTest
 	public void setUP() throws IOException{
@@ -30,7 +27,6 @@ public class TestBase extends Testproperties{
 			tearDOWN();
 		}
 		log.debug(driver.getTitle()+" opened");
-		waitsometime(30);
 		driver.manage().window().maximize();
 		log.debug("Windows maximized");
 	}
@@ -41,8 +37,4 @@ public class TestBase extends Testproperties{
 		log.debug("Browser closed");
 	}
 	
-	@Test
-	public void waitsometime(int time){
-		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
-	}
 }

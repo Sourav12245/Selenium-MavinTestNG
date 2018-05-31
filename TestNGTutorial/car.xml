@@ -5,17 +5,7 @@
 	    	<classes>
 	      		<class name="car.Cardetail"/>
 	      		<class name="car.Carparts"/>
-	    	</classes>
-	  	</test> 
-		<test name="CarParts">
-	    	<classes>
-	      		<class name="car.Carparts"/>
-	    	</classes>
-	  	</test>
-	  	<test name="CarOwner">
-	    	<classes>
 	      		<class name="car.Carowner"/>
 	    	</classes>
-	  	</test>
-		
+	  	</test> 
 </suite> 

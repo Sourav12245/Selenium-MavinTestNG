@@ -19,7 +19,7 @@ public class hloan {
 	public void nameowner() {
 		System.out.println("I am the owner");
 	}
-	@Test(groups= {"Smoke"})
+	@Test(groups= {"Regression","Smoke"})
 	public void place() {
 		System.out.println("Location: BANGALORE");
 	}

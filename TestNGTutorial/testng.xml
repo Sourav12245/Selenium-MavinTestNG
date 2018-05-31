@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="LoanDepartment">
-	  	<test name="Personaloan">
-	    	<classes>
-	      		<class name="test.learn"/>
-	      		<class name="test.ploan"/>
-	    	</classes>
-	  	</test> 
-		
-		<test name ="carloan">
+<suite name="Car">
+		<test name ="name">
 			<classes>
-				<class name ="test.cloan">
+				<class name ="car.Cardetail">
 				<methods>
-					<exclude name="check"/>
+					<exclude name="overallcost"/>
 				</methods>
 				</class>
-				<class name="test.ploan"/>
-			</classes>
-		</test>
-	
-	
-		<test name ="homeloan">
-			<classes>
-				<class name ="test.hloan"/>
 			</classes>
 		</test>
 </suite> 

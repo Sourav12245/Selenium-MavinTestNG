@@ -5,9 +5,9 @@
     <classes>
       <class name="logcheck.logmain.checklog">
         <methods>
-          <include name="validinput"/>
           <include name="tearDOWN"/>
           <include name="setUP"/>
+          <include name="waitsometime"/>
         </methods>
       </class> <!-- logcheck.logmain.checklog -->
     </classes>

@@ -1,163 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="26" passed="25">
+<testng-results skipped="0" failed="0" ignored="14" total="16" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Car Details Overall" duration-ms="1083" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:24Z">
+  <suite name="LoanDepartment" duration-ms="165" started-at="2018-05-28T10:48:03Z" finished-at="2018-05-28T10:48:03Z">
     <groups>
+      <group name="Regression">
+        <method signature="hloan.place()[pri:0, instance:test.hloan@4520ebad]" name="place" class="test.hloan"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="hloan.place()[pri:0, instance:test.hloan@4520ebad]" name="place" class="test.hloan"/>
+        <method signature="ploan.loaning_new()[pri:0, instance:test.ploan@62ee68d8]" name="loaning_new" class="test.ploan"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test name="CarDetails" duration-ms="272" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-      <class name="car.Carparts">
-        <test-method status="PASS" signature="bclass()[pri:0, instance:car.Carparts@4f933fd1]" name="bclass" is-config="true" duration-ms="0" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
+    <test name="Regression" duration-ms="165" started-at="2018-05-28T10:48:03Z" finished-at="2018-05-28T10:48:03Z">
+      <class name="test.hloan">
+        <test-method status="PASS" signature="place()[pri:0, instance:test.hloan@4520ebad]" name="place" duration-ms="5" started-at="2018-05-28T10:48:03Z" finished-at="2018-05-28T10:48:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bclass -->
-        <test-method status="PASS" signature="chechis()[pri:0, instance:car.Carparts@4f933fd1]" name="chechis" duration-ms="20" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
+        </test-method> <!-- place -->
+      </class> <!-- test.hloan -->
+      <class name="test.ploan">
+        <test-method status="PASS" signature="loaning_new()[pri:0, instance:test.ploan@62ee68d8]" name="loaning_new" duration-ms="44" started-at="2018-05-28T10:48:03Z" finished-at="2018-05-28T10:48:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chechis -->
-        <test-method status="PASS" signature="door()[pri:0, instance:car.Carparts@4f933fd1]" name="door" duration-ms="3" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- door -->
-        <test-method status="PASS" signature="headlight()[pri:0, instance:car.Carparts@4f933fd1]" name="headlight" duration-ms="5" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headlight -->
-        <test-method status="PASS" signature="taillight()[pri:0, instance:car.Carparts@4f933fd1]" name="taillight" duration-ms="3" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- taillight -->
-        <test-method status="PASS" signature="wheel()[pri:0, instance:car.Carparts@4f933fd1]" name="wheel" duration-ms="2" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wheel -->
-        <test-method status="PASS" signature="window()[pri:0, instance:car.Carparts@4f933fd1]" name="window" duration-ms="5" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- window -->
-        <test-method status="PASS" signature="aclass()[pri:0, instance:car.Carparts@4f933fd1]" name="aclass" is-config="true" duration-ms="1" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aclass -->
-      </class> <!-- car.Carparts -->
-      <class name="car.Cardetail">
-        <test-method status="PASS" signature="btest()[pri:0, instance:car.Cardetail@735b5592]" name="btest" is-config="true" duration-ms="53" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- btest -->
-        <test-method status="PASS" signature="bclass()[pri:0, instance:car.Cardetail@735b5592]" name="bclass" is-config="true" duration-ms="0" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bclass -->
-        <test-method status="PASS" signature="company()[pri:0, instance:car.Cardetail@735b5592]" name="company" duration-ms="14" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- company -->
-        <test-method status="PASS" signature="country()[pri:0, instance:car.Cardetail@735b5592]" name="country" duration-ms="6" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- country -->
-        <test-method status="PASS" signature="manufacture()[pri:0, instance:car.Cardetail@735b5592]" name="manufacture" duration-ms="7" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- manufacture -->
-        <test-method status="PASS" signature="cost()[pri:0, instance:car.Cardetail@735b5592]" name="cost" duration-ms="1" started-at="2018-05-15T10:44:23Z" depends-on-methods="car.Cardetail.country, car.Cardetail.company" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cost -->
-        <test-method status="PASS" signature="shippingcost()[pri:0, instance:car.Cardetail@735b5592]" name="shippingcost" duration-ms="2" started-at="2018-05-15T10:44:23Z" depends-on-methods="car.Cardetail.country" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shippingcost -->
-        <test-method status="PASS" signature="importtax()[pri:0, instance:car.Cardetail@735b5592]" name="importtax" duration-ms="2" started-at="2018-05-15T10:44:23Z" depends-on-methods="car.Cardetail.shippingcost" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- importtax -->
-        <test-method status="PASS" signature="tax()[pri:0, instance:car.Cardetail@735b5592]" name="tax" duration-ms="3" started-at="2018-05-15T10:44:23Z" depends-on-methods="car.Cardetail.country, car.Cardetail.manufacture, car.Cardetail.cost" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tax -->
-        <test-method status="PASS" signature="aclass()[pri:0, instance:car.Cardetail@735b5592]" name="aclass" is-config="true" duration-ms="1" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aclass -->
-        <test-method status="PASS" signature="atest()[pri:0, instance:car.Cardetail@735b5592]" name="atest" is-config="true" duration-ms="0" started-at="2018-05-15T10:44:23Z" finished-at="2018-05-15T10:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- atest -->
-      </class> <!-- car.Cardetail -->
-    </test> <!-- CarDetails -->
-    <test name="CarParts" duration-ms="62" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-      <class name="car.Carparts">
-        <test-method status="PASS" signature="bclass()[pri:0, instance:car.Carparts@523884b2]" name="bclass" is-config="true" duration-ms="1" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bclass -->
-        <test-method status="PASS" signature="chechis()[pri:0, instance:car.Carparts@523884b2]" name="chechis" duration-ms="2" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chechis -->
-        <test-method status="PASS" signature="door()[pri:0, instance:car.Carparts@523884b2]" name="door" duration-ms="3" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- door -->
-        <test-method status="PASS" signature="headlight()[pri:0, instance:car.Carparts@523884b2]" name="headlight" duration-ms="2" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headlight -->
-        <test-method status="PASS" signature="taillight()[pri:0, instance:car.Carparts@523884b2]" name="taillight" duration-ms="23" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- taillight -->
-        <test-method status="PASS" signature="wheel()[pri:0, instance:car.Carparts@523884b2]" name="wheel" duration-ms="1" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wheel -->
-        <test-method status="PASS" signature="window()[pri:0, instance:car.Carparts@523884b2]" name="window" duration-ms="3" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- window -->
-        <test-method status="PASS" signature="aclass()[pri:0, instance:car.Carparts@523884b2]" name="aclass" is-config="true" duration-ms="1" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aclass -->
-      </class> <!-- car.Carparts -->
-    </test> <!-- CarParts -->
-    <test name="CarOwner" duration-ms="109" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-      <class name="car.Carowner">
-        <test-method status="PASS" signature="bclass()[pri:0, instance:car.Carowner@68c4039c]" name="bclass" is-config="true" duration-ms="1" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bclass -->
-        <test-method status="PASS" signature="DOB()[pri:0, instance:car.Carowner@68c4039c]" name="DOB" duration-ms="2" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DOB -->
-        <test-method status="PASS" signature="age()[pri:0, instance:car.Carowner@68c4039c]" name="age" duration-ms="3" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- age -->
-        <test-method status="PASS" signature="driver()[pri:0, instance:car.Carowner@68c4039c]" name="driver" duration-ms="6" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driver -->
-        <test-method status="PASS" signature="name()[pri:0, instance:car.Carowner@68c4039c]" name="name" duration-ms="4" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method status="PASS" signature="profession()[pri:0, instance:car.Carowner@68c4039c]" name="profession" duration-ms="3" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profession -->
-        <test-method status="PASS" signature="sex()[pri:0, instance:car.Carowner@68c4039c]" name="sex" duration-ms="8" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sex -->
-        <test-method status="PASS" signature="aclass()[pri:0, instance:car.Carowner@68c4039c]" name="aclass" is-config="true" duration-ms="1" started-at="2018-05-15T10:44:24Z" finished-at="2018-05-15T10:44:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aclass -->
-      </class> <!-- car.Carowner -->
-    </test> <!-- CarOwner -->
-  </suite> <!-- Car Details Overall -->
+        </test-method> <!-- loaning_new -->
+      </class> <!-- test.ploan -->
+    </test> <!-- Regression -->
+  </suite> <!-- LoanDepartment -->
 </testng-results>

@@ -4,7 +4,7 @@ package test;
 import org.testng.annotations.Test;
 
 public class ploan {
-	@Test
+	@Test(groups= {"Regression"})
 	public void loaning() {
 		System.out.println("Prsonal Loan @ 10%");
 	}

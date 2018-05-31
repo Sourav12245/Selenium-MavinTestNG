@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19068" started-at="2018-05-27T19:00:18Z" finished-at="2018-05-27T19:00:37Z">
+  <suite name="Default suite" duration-ms="34279" started-at="2018-05-28T11:08:21Z" finished-at="2018-05-28T11:08:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19068" started-at="2018-05-27T19:00:18Z" finished-at="2018-05-27T19:00:37Z">
+    <test name="Default test" duration-ms="34279" started-at="2018-05-28T11:08:21Z" finished-at="2018-05-28T11:08:56Z">
       <class name="logcheck.logmain.checklog">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:logcheck.logmain.checklog@335eadca]" name="setUP" is-config="true" duration-ms="11801" started-at="2018-05-27T19:00:18Z" finished-at="2018-05-27T19:00:30Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:logcheck.logmain.checklog@6ddf90b0]" name="setUP" is-config="true" duration-ms="26686" started-at="2018-05-28T11:08:21Z" finished-at="2018-05-28T11:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="getnumberoflinks()[pri:1, instance:logcheck.logmain.checklog@335eadca]" name="getnumberoflinks" duration-ms="269" started-at="2018-05-27T19:00:30Z" finished-at="2018-05-27T19:00:30Z">
+        <test-method status="PASS" signature="getnumberoflinks()[pri:1, instance:logcheck.logmain.checklog@6ddf90b0]" name="getnumberoflinks" duration-ms="179" started-at="2018-05-28T11:08:48Z" finished-at="2018-05-28T11:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getnumberoflinks -->
-        <test-method status="PASS" signature="validinput()[pri:2, instance:logcheck.logmain.checklog@335eadca]" name="validinput" duration-ms="4540" started-at="2018-05-27T19:00:30Z" finished-at="2018-05-27T19:00:35Z">
+        <test-method status="PASS" signature="validinput()[pri:2, instance:logcheck.logmain.checklog@6ddf90b0]" name="validinput" duration-ms="4254" started-at="2018-05-28T11:08:49Z" finished-at="2018-05-28T11:08:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validinput -->
-        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:logcheck.logmain.checklog@335eadca]" name="tearDOWN" is-config="true" duration-ms="2259" started-at="2018-05-27T19:00:35Z" finished-at="2018-05-27T19:00:37Z">
+        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:logcheck.logmain.checklog@6ddf90b0]" name="tearDOWN" is-config="true" duration-ms="2982" started-at="2018-05-28T11:08:53Z" finished-at="2018-05-28T11:08:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOWN -->
