@@ -1,8 +1,8 @@
-2018-06-06 18:50 INFO  login:13 - Browser trigered
-2018-06-06 18:50 INFO  login:15 - Website Entered:https://www.freecrm.com/index.html
-2018-06-06 18:50 INFO  login:17 - Browser Maximized
-2018-06-06 18:50 INFO  login:21 - Website is opened
-2018-06-06 18:50 INFO  login:17 - userID is set
-2018-06-06 18:50 INFO  login:20 - Password is set
-2018-06-06 18:50 INFO  login:22 - Click
-2018-06-06 18:50 INFO  login:30 - Browser closed
+2018-06-07 16:31 INFO  login:24 - Browser trigered
+2018-06-07 16:32 INFO  login:26 - Website Entered:https://www.freecrm.com/index.html
+2018-06-07 16:32 INFO  login:28 - Browser Maximized
+2018-06-07 16:32 INFO  login:32 - Website is opened
+2018-06-07 16:32 INFO  login:15 - userID is set
+2018-06-07 16:32 INFO  login:18 - Password is set
+2018-06-07 16:32 INFO  login:20 - Click
+2018-06-07 16:32 INFO  login:43 - Browser closed

@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35141" started-at="2018-06-06T13:20:19Z" finished-at="2018-06-06T13:20:54Z">
+  <suite name="Default suite" duration-ms="31114" started-at="2018-06-07T11:01:52Z" finished-at="2018-06-07T11:02:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35141" started-at="2018-06-06T13:20:19Z" finished-at="2018-06-06T13:20:54Z">
+    <test name="Default test" duration-ms="31114" started-at="2018-06-07T11:01:52Z" finished-at="2018-06-07T11:02:23Z">
       <class name="testcases.login">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:testcases.login@5a8e6209]" name="setUP" is-config="true" duration-ms="18829" started-at="2018-06-06T13:20:19Z" finished-at="2018-06-06T13:20:38Z">
+        <test-method status="PASS" signature="setthings()[pri:0, instance:testcases.login@3dd4520b]" name="setthings" is-config="true" duration-ms="46" started-at="2018-06-07T11:01:52Z" finished-at="2018-06-07T11:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setthings -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testcases.login@3dd4520b]" name="setUP" is-config="true" duration-ms="17968" started-at="2018-06-07T11:01:52Z" finished-at="2018-06-07T11:02:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="mainpage()[pri:0, instance:testcases.login@5a8e6209]" name="mainpage" duration-ms="13598" started-at="2018-06-06T13:20:38Z" finished-at="2018-06-06T13:20:52Z">
+        <test-method status="PASS" signature="mainpage()[pri:0, instance:testcases.login@3dd4520b]" name="mainpage" duration-ms="12094" started-at="2018-06-07T11:02:10Z" finished-at="2018-06-07T11:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainpage -->
-        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:testcases.login@5a8e6209]" name="tearDOWN" is-config="true" duration-ms="2644" started-at="2018-06-06T13:20:52Z" finished-at="2018-06-06T13:20:54Z">
+        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:testcases.login@3dd4520b]" name="tearDOWN" is-config="true" duration-ms="978" started-at="2018-06-07T11:02:22Z" finished-at="2018-06-07T11:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOWN -->

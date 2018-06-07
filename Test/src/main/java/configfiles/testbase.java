@@ -1,11 +1,22 @@
 package configfiles;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
+import screenshot.utilities;
 
-public class testbase extends config{
+
+public class testbase extends utilities{
+	/*
+	 * Extension: testbase>>utilities>>Excelworks>>config
+	 */
+	
+	/*
+	 * Start the session
+	 */
 	@BeforeTest
 	public void setUP() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sourav.e.ghosh\\Downloads\\chromedriver_win32\\chromedriver.exe");
@@ -24,11 +35,20 @@ public class testbase extends config{
 		}
 	}
 	
-	
+	/*
+	 * Close the session
+	 */
 	@AfterTest
 	public void tearDOWN() {
 		log.info("Browser closed");
-		driver.close();
+		driver.quit();
 	}
+	
+	@BeforeSuite
+	public void setthings() {
+		utilities u = new utilities();
+		u.deletedirectory("Screenshots");
+	}
+	
 
 }
