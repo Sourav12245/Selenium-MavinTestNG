@@ -21,14 +21,14 @@ public class Excelworks{
 	 * colnumber: Provide the column number to retrive the data
 	 */
 		
-		public ArrayList<Object> readexceldata(String fileloc,int Sheetnumber, int rownumber, int colnumber) throws Exception{
+		public ArrayList<String> readexceldata(String fileloc,int Sheetnumber, int rownumber, int colnumber) throws Exception{
+			ArrayList<String> ar = new ArrayList<String>();
+			
 			File src = new File(fileloc);
 			FileInputStream fis = new FileInputStream(src);
 			XSSFWorkbook wb = new XSSFWorkbook(fis);
 			XSSFSheet sheet = wb.getSheetAt(Sheetnumber);
 			String data = sheet.getRow(rownumber).getCell(colnumber).getStringCellValue(); 
-			ArrayList<Object> ar = new ArrayList<Object>();
-//			ar.add(data);
 			System.out.println(data);
 			return ar;
 			
