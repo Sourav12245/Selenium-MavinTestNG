@@ -5,8 +5,10 @@
     <classes>
       <class name="testcases.login">
         <methods>
-          <include name="main"/>
+          <include name="homepage"/>
+          <include name="setthings"/>
           <include name="setUP"/>
+          <include name="mainpage"/>
           <include name="tearDOWN"/>
         </methods>
       </class> <!-- testcases.login -->
