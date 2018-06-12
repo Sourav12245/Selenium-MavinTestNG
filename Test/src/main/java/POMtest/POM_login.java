@@ -2,6 +2,7 @@ package POMtest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import excelReader.Testdata;
 import screenshot.utilities;
@@ -23,14 +24,21 @@ public class POM_login{
 	By link = By.xpath("//a");
 	
 	public void setuser() throws Exception {
+		WebElement we = driver.findElement(username);
+		utilities.highlight(we);
 		driver.findElement(username).sendKeys(Testdata.testdatalogin().get(0));
+	
 	}
 	
 	public void setpassword() throws Exception {
+		WebElement we = driver.findElement(password);
+		utilities.highlight(we);
 		driver.findElement(password).sendKeys(Testdata.testdatalogin().get(1));
 	}
 	
-	public void clicklogin() {
+	public void clicklogin() throws Exception {
+		WebElement we = driver.findElement(login);
+		utilities.highlight(we);
 		driver.findElement(login).click();
 	}
 	

@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="120976" started-at="2018-06-11T15:07:21Z" finished-at="2018-06-11T15:09:22Z">
+  <suite name="Default suite" duration-ms="45325" started-at="2018-06-12T08:05:03Z" finished-at="2018-06-12T08:05:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="120976" started-at="2018-06-11T15:07:21Z" finished-at="2018-06-11T15:09:22Z">
-      <class name="testcases.login">
-        <test-method status="PASS" signature="setthings()[pri:0, instance:testcases.login@2b552920]" name="setthings" is-config="true" duration-ms="718" started-at="2018-06-11T15:07:20Z" finished-at="2018-06-11T15:07:21Z">
+    <test name="Default test" duration-ms="45325" started-at="2018-06-12T08:05:03Z" finished-at="2018-06-12T08:05:48Z">
+      <class name="testcases.Testfilecheckertobedeleted">
+        <test-method status="PASS" signature="setthings()[pri:0, instance:testcases.Testfilecheckertobedeleted@551aa95a]" name="setthings" is-config="true" duration-ms="84" started-at="2018-06-12T08:05:03Z" finished-at="2018-06-12T08:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setthings -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:testcases.login@2b552920]" name="setUP" is-config="true" duration-ms="77234" started-at="2018-06-11T15:07:21Z" finished-at="2018-06-11T15:08:38Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testcases.Testfilecheckertobedeleted@551aa95a]" name="setUP" is-config="true" duration-ms="19440" started-at="2018-06-12T08:05:03Z" finished-at="2018-06-12T08:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="mainpage()[pri:0, instance:testcases.login@2b552920]" name="mainpage" duration-ms="36763" started-at="2018-06-11T15:08:38Z" finished-at="2018-06-11T15:09:15Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Testfilecheckertobedeleted@551aa95a]" name="login" duration-ms="14657" started-at="2018-06-12T08:05:22Z" finished-at="2018-06-12T08:05:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainpage -->
-        <test-method status="FAIL" signature="homepage()[pri:0, instance:testcases.login@2b552920]" name="homepage" duration-ms="5306" started-at="2018-06-11T15:09:15Z" depends-on-methods="testcases.login.mainpage" finished-at="2018-06-11T15:09:20Z">
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="homepage()[pri:0, instance:testcases.Testfilecheckertobedeleted@551aa95a]" name="homepage" duration-ms="10103" started-at="2018-06-12T08:05:37Z" depends-on-methods="testcases.Testfilecheckertobedeleted.login" finished-at="2018-06-12T08:05:47Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Calendar']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://www.freecrm.com/system/index.cfm?action=sms'][@title='Text/SMS']"}
   (Session info: chrome=67.0.3396.79)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -31,11 +31,11 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'BDC6-D-352SVFF', ip: '10.218.176.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\SOURAV~1.GHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
-Session ID: da0a6e0924a898c13615314c9588126d
-*** Element info: {Using=xpath, value=//a[@title='Calendar']}]]>
+Session ID: 2429b6a5c26caaaa5e484a56e5edbb5b
+*** Element info: {Using=xpath, value=//a[@href='https://www.freecrm.com/system/index.cfm?action=sms'][@title='Text/SMS']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Calendar']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://www.freecrm.com/system/index.cfm?action=sms'][@title='Text/SMS']"}
   (Session info: chrome=67.0.3396.79)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -44,8 +44,8 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'BDC6-D-352SVFF', ip: '10.218.176.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\SOURAV~1.GHO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
-Session ID: da0a6e0924a898c13615314c9588126d
-*** Element info: {Using=xpath, value=//a[@title='Calendar']}
+Session ID: 2429b6a5c26caaaa5e484a56e5edbb5b
+*** Element info: {Using=xpath, value=//a[@href='https://www.freecrm.com/system/index.cfm?action=sms'][@title='Text/SMS']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -62,9 +62,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-at screenshot.utilities.gettabdropdownvalues(utilities.java:101)
-at POMtest.POM_tab_home.getnameunder_calender(POM_tab_home.java:26)
-at testcases.login.homepage(login.java:29)
+at testcases.Testfilecheckertobedeleted.homepage(Testfilecheckertobedeleted.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -96,11 +94,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:testcases.login@2b552920]" name="tearDOWN" is-config="true" duration-ms="1213" started-at="2018-06-11T15:09:21Z" finished-at="2018-06-11T15:09:22Z">
+        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:testcases.Testfilecheckertobedeleted@551aa95a]" name="tearDOWN" is-config="true" duration-ms="1030" started-at="2018-06-12T08:05:47Z" finished-at="2018-06-12T08:05:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOWN -->
-      </class> <!-- testcases.login -->
+      </class> <!-- testcases.Testfilecheckertobedeleted -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
