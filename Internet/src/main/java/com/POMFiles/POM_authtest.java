@@ -1,9 +1,12 @@
 package com.POMFiles;
 
-import java.awt.Robot;
-
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+
+import com.utilities.Utility;
+
 
 public class POM_authtest {
 	WebDriver driver;
@@ -14,5 +17,18 @@ public class POM_authtest {
 	
 	//get the xpaths
 	By Basic_Auth_link = By.xpath("//a[@href='/basic_auth']");
+	
+	public void click_link() {
+//		Utility.highlight(driver.findElement(Basic_Auth_link));
+		driver.findElement(Basic_Auth_link).click();
+	}
+	
+	
+	public void gettextallert() {
+		Alert al = driver.switchTo().alert();
+		System.out.println(al.getText());
+	}
+	
+	
 
 }

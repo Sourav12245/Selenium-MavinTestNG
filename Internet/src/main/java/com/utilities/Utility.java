@@ -14,6 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
 
 public class Utility {
+	// declare web driver
 	public static WebDriver driver;
 	/*
 	 * Log4g files
@@ -23,10 +24,20 @@ public class Utility {
 	/*
 	 * Highlight stuffs
 	 */
-	public static void highlight(WebElement element) {
+	public static void highlight(WebElement element) throws Exception {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
+		int n = 800;
+		for(int i = 0; i<=2;i++) {
 		js.executeScript("arguments[0].setAttribute('style','border: solid 2px red');", element);
+		Thread.sleep(n);
+		js.executeScript("arguments[0].setAttribute('style','border: solid 2px white');", element);
+		Thread.sleep(n-100);
+		n = n - 100;
+		js.executeScript("arguments[0].setAttribute('style','border: solid 2px red');", element);
+		}
 	}
+	
+	
 	
 	/*
 	 * Takes screenshots
@@ -34,7 +45,7 @@ public class Utility {
 	public static void take_screenshot(String screen_shot_name) throws Exception {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File f = ts.getScreenshotAs(OutputType.FILE);
-		String name = "["+getdate()+"]" + screen_shot_name;
+		String name = "["+ getdate() +"]" + screen_shot_name;
 		FileHandler.copy(f, new File("Screenshots//"+ name +".jpg"));
 		
 	}
@@ -42,7 +53,7 @@ public class Utility {
 	 * Get the syatem date and time
 	 */
 	public static String getdate() {
-		DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+		DateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy HH-mm-ss");
 		Date date = new Date();
 		String date1 = dateFormat.format(date);
 		return date1;

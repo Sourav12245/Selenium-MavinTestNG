@@ -8,11 +8,12 @@ import org.testng.annotations.BeforeTest;
 import com.utilities.Utility;
 
 public class Testbase extends Utility{
+//	public WebDriver driver;
 	
 	@BeforeTest
 	public void setUP() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sourav.e.ghosh\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		log.info("Browser Started");
 		driver.get("http://the-internet.herokuapp.com/");
 		log.info("URL opened");
@@ -22,7 +23,7 @@ public class Testbase extends Utility{
 	
 	@AfterTest
 	public void  tearDOWN() {
-		driver.quit();
+		driver.close();
 		log.info("Browser is closed");
 	}
 	
