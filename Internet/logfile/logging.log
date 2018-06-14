@@ -1,4 +1,10 @@
-2018-06-13 18:14 INFO  BrokenImage:17 - Browser Started
-2018-06-13 18:14 INFO  BrokenImage:19 - URL opened
-2018-06-13 18:14 INFO  BrokenImage:21 - Browser Maximized
-2018-06-13 18:15 INFO  BrokenImage:27 - Browser is closed
+2018-06-14 18:52 INFO  Challenging_dom:17 - Browser Started
+2018-06-14 18:52 INFO  Challenging_dom:19 - URL opened
+2018-06-14 18:52 INFO  Challenging_dom:21 - Browser Maximized
+2018-06-14 18:52 INFO  Challenging_dom:14 - link clicked to new page
+2018-06-14 18:52 INFO  Challenging_dom:33 - Blue button pressed
+2018-06-14 18:52 INFO  Challenging_dom:35 - green button pressed
+2018-06-14 18:52 INFO  Challenging_dom:37 - Red button pressed
+2018-06-14 18:53 INFO  Challenging_dom:39 - green button pressed
+2018-06-14 18:53 INFO  Challenging_dom:41 - Blue button pressed
+2018-06-14 18:53 INFO  Challenging_dom:27 - Browser is closed

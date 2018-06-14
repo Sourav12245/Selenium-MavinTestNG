@@ -45,7 +45,7 @@ public class Utility {
 	public static void take_screenshot(String screen_shot_name) throws Exception {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File f = ts.getScreenshotAs(OutputType.FILE);
-		String name = "["+ getdate() +"]" + screen_shot_name;
+		String name = getdate() + screen_shot_name;
 		FileHandler.copy(f, new File("Screenshots//"+ name +".jpg"));
 		
 	}
@@ -53,10 +53,14 @@ public class Utility {
 	 * Get the syatem date and time
 	 */
 	public static String getdate() {
-		DateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy HH-mm-ss");
+		DateFormat dateFormat_date = new SimpleDateFormat("dd-MM-yyyy");
+		DateFormat dateFormat_time = new SimpleDateFormat("HH-mm-ss");
 		Date date = new Date();
-		String date1 = dateFormat.format(date);
-		return date1;
+		Date time = new Date();
+		String date1 = dateFormat_date.format(date);
+		String time1 = dateFormat_time.format(time);
+		String total_date = "["+date1+"]"+"["+time1+"]";
+		return total_date;
 	}
 	/*
 	 * Delete directory
