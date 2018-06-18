@@ -27,14 +27,14 @@ public class Utility {
 	public static void highlight(WebElement element) throws Exception {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		int n = 800;
-		for(int i = 0; i<=2;i++) {
+		for(int i = 1; i<=2;i++) {
 		js.executeScript("arguments[0].setAttribute('style','border: solid 2px red');", element);
 		Thread.sleep(n);
 		js.executeScript("arguments[0].setAttribute('style','border: solid 2px white');", element);
-		Thread.sleep(n-100);
-		n = n - 100;
-		js.executeScript("arguments[0].setAttribute('style','border: solid 2px red');", element);
+		Thread.sleep(n-200);
+		n = n - 200;
 		}
+		js.executeScript("arguments[0].setAttribute('style','border: solid 2px red');", element);
 	}
 	
 	

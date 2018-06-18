@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.BrokenImage">
+      <class name="com.test.Draganddrop">
         <methods>
           <include name="setthings"/>
           <include name="setUP"/>
-          <include name="brokimg"/>
+          <include name="draganddrop"/>
           <include name="tearDOWN"/>
         </methods>
-      </class> <!-- com.test.BrokenImage -->
+      </class> <!-- com.test.Draganddrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,7 +1,7 @@
 package com.POMFiles;
 
 
-import java.util.List;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -174,16 +174,12 @@ public class POM_challengingdom {
 	/*
 	 * highlight edit or delete links
 	 */
-	public void click_edit(int n) {
-		String[] arr = new String[10];
-		int j = 1;
-		for(int i = 0; i<= arr.length-1;i++) {
-			arr[i] = driver.findElement(By.xpath("//a[@href = '#edit']["+ j +"]")).getText();
-			j++;
+	public void click_link(int n, String name) throws Exception {
+		if(name.equalsIgnoreCase("edit")) {
+			Utility.highlight(driver.findElement(By.xpath("//table//tbody//tr["+n+"]//td[7]//a[1]")));
+		}else {
+			Utility.highlight(driver.findElement(By.xpath("//table//tbody//tr["+n+"]//td[7]//a[2]")));
 		}
-		
-		
-		
 	}
 	
 	
