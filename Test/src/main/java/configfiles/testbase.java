@@ -19,16 +19,16 @@ public class testbase extends utilities{
 	 */
 	@BeforeTest
 	public void setUP() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sourav.e.ghosh\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sourav\\Downloads\\Selenium_Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		log.info("Browser trigered");
-		driver.get("https://www.freecrm.com/index.html");
+		driver.get("http://the-internet.herokuapp.com/");
 		log.info("Website Entered:"+ driver.getCurrentUrl());
 		driver.manage().window().maximize();
 		log.info("Browser Maximized");
 		String title = driver.getTitle();
 		try {
-			Assert.assertEquals(true, title.contains("Free CRM software"));
+			Assert.assertEquals(true, title.contains("The Internet"));
 			log.info("Website is opened");
 		}catch(Exception e) {
 			log.info("Website info miss match:"+e);

@@ -32,7 +32,7 @@ public class utilities extends Excelworks{
 		} catch (Exception e) {
 			System.out.println("Exception:"+e);
 		}
-	}
+}
 	
 
 	/*
@@ -112,9 +112,16 @@ public class utilities extends Excelworks{
 			System.out.println(p);
 		}
 	}
-	public static void highlight(WebElement Element){
+	public static void highlight(WebElement Element) throws Exception{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
+		int time = 800;
+		for(int i = 1; i<=2;i++){
+			js.executeScript("arguments[0].setAttribute('style','border: solid 2px red');", Element);
+			Thread.sleep(time);
+			js.executeScript("arguments[0].setAttribute('style','border: solid 2px white');", Element);
+			Thread.sleep(time-200);
+			time = time - 200;
+		}
 		js.executeScript("arguments[0].setAttribute('style','border: solid 2px red');", Element);
-		
 	}
 }

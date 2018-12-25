@@ -1,8 +1,5 @@
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:24 - Browser trigered
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:26 - Website Entered:https://www.freecrm.com/index.html
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:28 - Browser Maximized
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:32 - Website is opened
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:19 - Username is set
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:21 - Password is set
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:25 - Login clicked done
-2018-06-12 13:35 INFO  Testfilecheckertobedeleted:43 - Browser closed
+2018-06-18 01:05 INFO  Testfilecheckertobedeleted:24 - Browser trigered
+2018-06-18 01:05 INFO  Testfilecheckertobedeleted:26 - Website Entered:http://the-internet.herokuapp.com/
+2018-06-18 01:05 INFO  Testfilecheckertobedeleted:28 - Browser Maximized
+2018-06-18 01:05 INFO  Testfilecheckertobedeleted:32 - Website is opened
+2018-06-18 01:05 INFO  Testfilecheckertobedeleted:43 - Browser closed

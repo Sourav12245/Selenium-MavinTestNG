@@ -5,11 +5,10 @@
     <classes>
       <class name="testcases.Testfilecheckertobedeleted">
         <methods>
-          <include name="login"/>
           <include name="setthings"/>
-          <include name="homepage"/>
           <include name="setUP"/>
           <include name="tearDOWN"/>
+          <include name="gettext"/>
         </methods>
       </class> <!-- testcases.Testfilecheckertobedeleted -->
     </classes>
