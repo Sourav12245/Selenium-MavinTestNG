@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64943" started-at="2018-06-14T13:22:05Z" finished-at="2018-06-14T13:23:10Z">
+  <suite name="Default suite" duration-ms="39861" started-at="2018-06-18T14:41:00Z" finished-at="2018-06-18T14:41:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64943" started-at="2018-06-14T13:22:05Z" finished-at="2018-06-14T13:23:10Z">
-      <class name="com.test.Challenging_dom">
-        <test-method status="PASS" signature="setthings()[pri:0, instance:com.test.Challenging_dom@7d907bac]" name="setthings" is-config="true" duration-ms="63" started-at="2018-06-14T13:22:05Z" finished-at="2018-06-14T13:22:05Z">
+    <test name="Default test" duration-ms="39861" started-at="2018-06-18T14:41:00Z" finished-at="2018-06-18T14:41:40Z">
+      <class name="com.test.Draganddrop">
+        <test-method status="PASS" signature="setthings()[pri:0, instance:com.test.Draganddrop@7d907bac]" name="setthings" is-config="true" duration-ms="33" started-at="2018-06-18T14:41:00Z" finished-at="2018-06-18T14:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setthings -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.test.Challenging_dom@7d907bac]" name="setUP" is-config="true" duration-ms="28484" started-at="2018-06-14T13:22:05Z" finished-at="2018-06-14T13:22:33Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.test.Draganddrop@7d907bac]" name="setUP" is-config="true" duration-ms="16785" started-at="2018-06-18T14:41:00Z" finished-at="2018-06-18T14:41:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="chaldom()[pri:0, instance:com.test.Challenging_dom@7d907bac]" name="chaldom" duration-ms="34745" started-at="2018-06-14T13:22:34Z" finished-at="2018-06-14T13:23:08Z">
+        <test-method status="PASS" signature="draganddrop()[pri:0, instance:com.test.Draganddrop@7d907bac]" name="draganddrop" duration-ms="22048" started-at="2018-06-18T14:41:17Z" finished-at="2018-06-18T14:41:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chaldom -->
-        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:com.test.Challenging_dom@7d907bac]" name="tearDOWN" is-config="true" duration-ms="1563" started-at="2018-06-14T13:23:08Z" finished-at="2018-06-14T13:23:10Z">
+        </test-method> <!-- draganddrop -->
+        <test-method status="PASS" signature="tearDOWN()[pri:0, instance:com.test.Draganddrop@7d907bac]" name="tearDOWN" is-config="true" duration-ms="750" started-at="2018-06-18T14:41:39Z" finished-at="2018-06-18T14:41:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDOWN -->
-      </class> <!-- com.test.Challenging_dom -->
+      </class> <!-- com.test.Draganddrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

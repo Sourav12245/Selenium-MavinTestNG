@@ -12,33 +12,12 @@ public class Challenging_dom extends Testbase{
 		POM_challengingdom pomc = new POM_challengingdom(driver);
 		pomc.click_on_link();
 		log.info("link clicked to new page");
-//		take_screenshot("afterlinkclick");
-//		pomc.get_number_value();
-//		
-//		
-//		pomc.click_on_button_bar();
-//		log.info("bar is pressed");
-//		pomc.get_number_value();
-//		
-//		
-//		pomc.click_on_button_foo();
-//		log.info("foo is pressed");
-//		pomc.get_number_value();
-//		
-//		
-//		pomc.click_on_button_qux();
-//		log.info("qux is pressed");
-//		pomc.get_number_value();
-		pomc.press_blue();
-		log.info("Blue button pressed");
-		pomc.press_green();
-		log.info("green button pressed");
-		pomc.press_red();
-		log.info("Red button pressed");
-		pomc.press_green();
-		log.info("green button pressed");
-		pomc.press_blue();
-		log.info("Blue button pressed");
+
+		pomc.click_link(1, "edit");
+		pomc.click_link(7, "edit");
+		pomc.click_link(10, "edit");
+		pomc.click_link(2, "delete");
+		pomc.click_link(9, "delete");
 		
 		
 	}
